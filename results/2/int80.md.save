@@ -1,0 +1,36 @@
+# int 0x80
+
+`int 0x80` — це інструкція переривання в Linux x86, яка викликає системний виклик ядра.
+
+## Найчастіше використовувані виклики:
+
+| eax | Виклик | Пояснення |
+|-----|--------|-----------|
+| 1   | exit | Завершення програми |
+| 4   | write | Запис у файл або stdout |
+| 3   | read | Читання з файлу або stdin |
+| 5   | open | Відкрити файл |
+| 6   | close | Закрити файл |
+| 11  | execve | Виконати програму |
+
+**Аргументи передаються в регістри ebx, ecx, edx.**
+
+
+
+git add int80.md
+git commit -m "Add int0x80 explanation"
+git push
+
+
+git add int80.md
+git commit -m "Add int0x80 explanation"
+git push
+cd ~/asm-practice
+
+
+exit
+
+
+
+
+
